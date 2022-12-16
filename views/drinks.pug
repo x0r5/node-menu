@@ -1,0 +1,17 @@
+extends layout
+
+block content 
+  h1.main-title #{title}
+  a(href="/")#drinks-image
+    img(src="/images/food.svg")
+  #tree
+    include tree
+  h3.subtitle Alkoholos
+  ul
+    li Sör
+    li Fehérbor
+    li Vörösbor
+  h3.subtitle Alkoholmentes
+  ul
+    li Víz 
+    li Gyümölcslé

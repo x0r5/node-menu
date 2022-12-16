@@ -18,6 +18,7 @@ a {
   padding: 5rem;
   color: white;
   font-size: 6rem;
+  text-shadow: -3px 3px 8px black;
 
 }
 
@@ -51,4 +52,16 @@ ul{
   z-index: -2;
   top: 29rem;
   right: 4rem;
+}
+
+#drinks-image{
+  position: fixed;
+  width: 15rem;
+  bottom: 0;
+  right: 2rem;
+  opacity: 90%;
+}
+
+li{
+  list-style-image: url("/images/sugar.svg");
 }
