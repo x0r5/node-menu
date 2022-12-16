@@ -1,8 +1,33 @@
+@font-face {
+  font-family: ItalianoRegular;
+  src: url("/fonts/Italianno-Regular.ttf");
+}
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  font-family: ItalianoRegular;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   color: #00B7FF;
+}
+
+.text-content{
+  padding: 5rem;
+  color: white;
+  font-size: 6rem;
+
+}
+
+.background{
+  background: url("/images/christmas-background.jpeg");
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-repeat: repeat;
+  background-size: 9rem;
+  z-index: -1000;
+  filter: blur(0.6px);
 }
