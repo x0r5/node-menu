@@ -1,22 +1,23 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-  h3 Előételek
+  h1.main-title #{title}
+  #tree
+    include tree
+  h3.subtitle Előételek
   ul 
     li Garnélakosárka
     li Hidegtál
-  h3 Leves
+  h3.subtitle Leves
   ul 
     li Zellerkrémleves
     li Fácánleves
-  h3 Főétel
+  h3.subtitle Főétel
   ul 
     li Steak 
     li Sertésszűzérme 
     li Tempurált harcsaszeletek
-  h3 Köret
+  h3.subtitle Köret
   ul 
     li Krumplimüré
     li Zöldbab
