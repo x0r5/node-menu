@@ -1,11 +1,11 @@
 @font-face {
   font-family: ItalianoRegular;
-  src: url("/fonts/Italianno-Regular.ttf");
+  src: url("/fonts/Italianno-Regular.ttf") format('truetype');
 }
 
 body {
   /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
-  font-family: ItalianoRegular;
+  font-family: "Apple Chancery";
   margin: 0;
   padding: 0;
 }
