@@ -44,6 +44,7 @@ a {
   width: 100%;
   text-align: center;
   margin-top: 0;
+  margin-bottom: 14rem;
 }
 
 .subtitle{
@@ -57,8 +58,8 @@ ul{
 #tree{
   position: absolute;
   z-index: -2;
-  top: 29rem;
-  right: 4rem;
+  top: 18rem;
+  right: 3rem;
 }
 
 #drinks-image{
