@@ -73,3 +73,8 @@ ul{
 li{
   list-style-image: url("/images/sugar.svg");
 }
+
+#separator{
+  display: block;
+  height: 400px;
+}
